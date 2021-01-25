@@ -5,12 +5,20 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Models from "./components/Models"; 
 import Contact from "./components/Contact"; 
-import React from "react";
+import React, { Nav, Navbar } from "react";
 
 function App() {
   return (
     <Router>
       <div>
+		{/* <Navbar bg="dark" variant="dark">
+			<Navbar.Brand href="#home">Navbar</Navbar.Brand>
+			<Nav className="mr-auto">
+				<Nav.Link href="#home">Home</Nav.Link>
+				<Nav.Link href="#features">Features</Nav.Link>
+				<Nav.Link href="#pricing">Pricing</Nav.Link>
+			</Nav>
+		</Navbar> */}
         <nav>
           <ul>
             <li>
