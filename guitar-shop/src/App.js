@@ -6,20 +6,23 @@ import About from "./components/About";
 import Models from "./components/Models"; 
 import Contact from "./components/Contact"; 
 import React, { Nav, Navbar } from "react";
+import {LinkContainer} from 'react-router-bootstrap'
 
 function App() {
   return (
     <Router>
       <div>
 		{/* <Navbar bg="dark" variant="dark">
-			<Navbar.Brand href="#home">Navbar</Navbar.Brand>
+			<LinkContainer to="/"></LinkContainer>
+			<Navbar.Brand>Bootstrap</Navbar.Brand>
 			<Nav className="mr-auto">
-				<Nav.Link href="#home">Home</Nav.Link>
-				<Nav.Link href="#features">Features</Nav.Link>
-				<Nav.Link href="#pricing">Pricing</Nav.Link>
+				<LinkContainer to="/"><Nav.Link>Home</Nav.Link></LinkContainer>
+				<LinkContainer to="/Models"><Nav.Link>Models</Nav.Link></LinkContainer>
+				<LinkContainer to="/About"><Nav.Link>About</Nav.Link></LinkContainer>
+				<LinkContainer to="/Contact"><Nav.Link>Contact</Nav.Link></LinkContainer>
 			</Nav>
 		</Navbar> */}
-        <nav>
+        {/* <nav>
           <ul>
             <li>
               <Link to="/">Home</Link>
@@ -34,11 +37,11 @@ function App() {
               <Link to="/Contact">Contact</Link>
             </li>
           </ul>
-        </nav>
+        </nav> */}
 
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
-        <Switch>
+        {/* <Switch>
 			<Route path="/models">
             <Models />
           </Route>
@@ -51,7 +54,7 @@ function App() {
           <Route path="/">
             <Home />
           </Route>
-        </Switch>
+        </Switch> */}
       </div>
     </Router>
   );
