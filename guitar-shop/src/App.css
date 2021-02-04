@@ -3,5 +3,7 @@
 }
 
 .MainImage {
-	text-align: center;
+	height: auto;
+	width: 100%;
+	filter: brightness(50%);
 }
