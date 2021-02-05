@@ -6,9 +6,7 @@ const Header = () => {
     return (
         <Navbar bg="dark" variant="dark">
             <LinkContainer to="/"><Navbar.Brand>
-			<img
-				alt=""
-				src="https://www.designfreelogoonline.com/wp-content/uploads/2016/01/000676-Free-logo-maker-guitarl-Logo-Templates-04.png"
+			<img alt="" src="https://www.designfreelogoonline.com/wp-content/uploads/2016/01/000676-Free-logo-maker-guitarl-Logo-Templates-04.png"
 				width="30"
 				height="30"
 				className="d-inline-block align-top"
