@@ -7,9 +7,7 @@ import BlockImage from './components/BlockImage';
 function App() {
   return (
     <Router>
-      <div>
 		<BlockImage/>
-      </div>
     </Router>
   );
 }
