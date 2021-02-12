@@ -1,9 +1,28 @@
-.App {
-  text-align: center;
+.cont {
+	position: relative;
+	text-align: center;
+	color: white;
 }
 
 .MainImage {
 	height: auto;
 	width: 100%;
 	filter: brightness(50%);
+}
+
+.blockTextMain {
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 500%;
+}
+
+.blockText {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 180%;
+	font-family: 'Crimson Text', serif;
 }
