@@ -4,6 +4,7 @@ class BlockImage extends Component{
 	render() {
 		return <div>
 			<link rel="preconnect" href="https://fonts.gstatic.com"></link><link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap" rel="stylesheet"></link>
+			<link rel="preconnect" href="https://fonts.gstatic.com"></link><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet"></link>
 			<div class="cont">
 			<img class="MainImage" src="https://hips.hearstapps.com/amv-prod-gp.s3.amazonaws.com/gearpatrol/wp-content/uploads/2020/05/PRS-SE-P20E-Gear-Patrol-Lead-Full.jpg" alt="Second card with information"/> 
 			<div class="blockTextMain">Bad Alek's Guitars</div></div><div class="cont">
