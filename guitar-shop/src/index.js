@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from './components/Header'
+import Footer from './components/Footer'
 import Models from './components/Models'
 import About from './components/About'
 import Contact from './components/Contact'
@@ -19,6 +20,7 @@ ReactDOM.render(
         <Route path="/about" component={About} />
 		<Route path="/contact" component={Contact} />
       </Switch>
+	  <Footer/>
     </Router>  </React.StrictMode>,
   document.getElementById('root')
 );
