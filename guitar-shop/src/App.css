@@ -29,5 +29,15 @@
 	transform: translate(-50%, -50%);
 	font-size: 180%;
 	font-family: 'Crimson Text', serif;
-	text-shadow: 5px 5px 5px rgb(83, 83, 83);
+}
+
+.links {
+	font-size: x-large;
+	padding-left: 6%;
+}
+
+.main-link {
+	font-size: xx-large;
+	position: absolute;
+	left: 5%;
 }

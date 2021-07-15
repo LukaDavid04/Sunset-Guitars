@@ -4,7 +4,7 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 import BlockImage from './components/BlockImage';
 
-function App() {
+function Home() {
   return (
     <Router>
 		<BlockImage/>
@@ -12,4 +12,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
