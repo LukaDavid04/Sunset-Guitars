@@ -17,7 +17,7 @@ const Header = () => {
 			</Nav.Link></LinkContainer>
 			<div class="main-link">
 				<Nav className="mr-auto">
-					<LinkContainer to="/home"><Nav.Link>David's Guitars</Nav.Link></LinkContainer>
+					David's Guitars
 				</Nav>
 			</div>
 			<div class="links">

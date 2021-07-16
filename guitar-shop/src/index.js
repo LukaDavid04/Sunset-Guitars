@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './App.css';
 import Home from './Home';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from './components/Header'
@@ -11,7 +12,9 @@ import Contact from './components/Contact'
 
 ReactDOM.render(
   <React.StrictMode>
-<Router>
+  <link rel="preconnect" href="https://fonts.gstatic.com"></link><link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap" rel="stylesheet"></link>
+	<link rel="preconnect" href="https://fonts.gstatic.com"></link><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet"></link>
+  <Router>
       <Header/>
       <Switch>
         <Route exact path="/" component={Home} />
@@ -21,6 +24,7 @@ ReactDOM.render(
 		    <Route path="/FAQ" component={Contact} />
       </Switch>
 	  <Footer/>
-    </Router>  </React.StrictMode>,
+    </Router>  
+    </React.StrictMode>,
   document.getElementById('root')
 );

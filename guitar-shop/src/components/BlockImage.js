@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import firstImage from '../assets/str.jpg'; // Tell Webpack this JS file uses this image
+
 
 class BlockImage extends Component{
 	render() {
@@ -6,11 +8,11 @@ class BlockImage extends Component{
 			<link rel="preconnect" href="https://fonts.gstatic.com"></link><link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap" rel="stylesheet"></link>
 			<link rel="preconnect" href="https://fonts.gstatic.com"></link><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet"></link>
 			<div class="cont">
-				<img class="MainImage" src="https://hips.hearstapps.com/amv-prod-gp.s3.amazonaws.com/gearpatrol/wp-content/uploads/2020/05/PRS-SE-P20E-Gear-Patrol-Lead-Full.jpg" alt="Second card with information"/> 
+				<img class="MainImage" src={firstImage} alt="First card with title"/>
 				<div class="blockTextMain">David's Guitars</div>
 			</div>
 			<div class="cont">
-				<img class="MainImage" src="https://cdn11.bigcommerce.com/s-yhkec2kugv/images/stencil/800x800/uploaded_images/001.jpg?t=1588890907" alt="First card with title"/> 
+				<img class="MainImage" src="https://cdn11.bigcommerce.com/s-yhkec2kugv/images/stencil/800x800/uploaded_images/001.jpg?t=1588890907" alt="Second card with information"/> 
 				<div class="blockText">My name is Luka David and I am passionate about making some nice guitars.
 				I believe in squeezing every last molecule of quality out of the materials I buy and making some beautiful creations.</div>
 			</div>

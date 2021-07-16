@@ -1,11 +1,9 @@
+/* BlockImage */
+
 .cont {
 	position: relative;
 	text-align: center;
 	color: white;
-}
-
-.footer {
-	text-align: center;
 }
 
 .MainImage {
@@ -19,7 +17,7 @@
 	top: 45%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	font-size: 450%;
+	font-size: 500%;
 	font-family: 'Montserrat', sans-serif;}
 
 .blockText {
@@ -31,13 +29,24 @@
 	font-family: 'Crimson Text', serif;
 }
 
+/* Header */
+
 .links {
 	font-size: x-large;
-	padding-left: 6%;
+	font-family: 'Montserrat', sans-serif !important;
+	position: relative;
+	left: 7%;
 }
 
 .main-link {
 	font-size: xx-large;
-	position: absolute;
-	left: 5%;
+	position: relative;
+	right: 27.5%;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+
+.navbar-nav .nav-link{
+	padding-left: 9% !important;
+	padding-right: 9% !important;
 }
