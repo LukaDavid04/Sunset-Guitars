@@ -84,10 +84,6 @@
 	padding-bottom: 2%;
 }
 
-.ModelImage {
-	padding-bottom: 10%;
-}
-
 /* About Page */
 
 .AboutImage {
@@ -125,14 +121,14 @@
 .Question {
 	font-family: 'Montserrat', sans-serif;
 	color: white;
-	margin-left: 2%;
+	margin-left: 4%;
 	margin-bottom: 1%;
 }
 
 .Answer {
 	font-family: 'Montserrat', sans-serif;
 	color: white;
-	margin-left: 5%;
+	margin-left: 6%;
 	margin-right: 4%;
 	text-indent: 6%;
 }

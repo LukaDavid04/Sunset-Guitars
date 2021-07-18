@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "../App.css";
+import AudioPlayer from './AudioPlayer';
 
 class ModelBlock extends Component{
 	render() {
@@ -17,11 +18,13 @@ class ModelBlock extends Component{
                         </div>
                     </div>
                     <div class="col">
-                        <img class="ModelImage" src={this.props.icon} 
+                        <img src={this.props.icon} 
 						width="110%" alt="Guitar"/>
                     </div>
                 </div>
+                <AudioPlayer/>
             </div>
+            
 		</div>;
 	}
 }
