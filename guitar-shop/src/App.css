@@ -42,7 +42,7 @@
 	font-size: x-large;
 	font-family: 'Montserrat', sans-serif !important;
 	position: relative;
-	left: 6%;
+	left: 1%;
 }
 
 .main-link {
@@ -108,6 +108,12 @@
 
 .AboutBody{
 	background-color: black;
+}
+
+.Contact {
+	font-family: 'Montserrat', sans-serif;
+	position: relative;
+	left:30%
 }
 
 /* FAQ */

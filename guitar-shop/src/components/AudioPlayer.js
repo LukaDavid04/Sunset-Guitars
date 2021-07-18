@@ -1,5 +1,5 @@
 import { useState, useRef } from 'react'
-import song from '../assets/BeeGees.mp3'
+import song from '../assets/BeeGees.mp4'
 import Slider from './slider/Slider'
 import ControlPanel from './controls/ControlPanel'
 
@@ -41,24 +41,28 @@ const onChange = (e) => {
 	}
 
 	return (
-		<div className='app-container'>
-		<h2 class="AboutName">Sample</h2>
-		<Slider percentage={percentage} onChange={onChange} />
-		<audio
-			ref={audioRef}
-			onTimeUpdate={getCurrDuration}
-			onLoadedData={(e) => {
-			setDuration(e.currentTarget.duration.toFixed(2))
-			}}
-			src={song}
-		></audio>
-		<ControlPanel
-			play={play}
-			isPlaying={isPlaying}
-			duration={duration}
-			currentTime={currentTime}
-		/>
-	</div>
+		<div class="ModelStyle">
+			<div class="container">
+				<div className='app-container'>
+					<h2 class="AboutName">Sample</h2>
+					<Slider percentage={percentage} onChange={onChange} />
+					<audio
+						ref={audioRef}
+						onTimeUpdate={getCurrDuration}
+						onLoadedData={(e) => {
+						setDuration(e.currentTarget.duration.toFixed(2))
+						}}
+						src={song}
+					></audio>
+					<ControlPanel
+						play={play}
+						isPlaying={isPlaying}
+						duration={duration}
+						currentTime={currentTime}
+					/><br/>
+				</div>
+			</div>
+		</div>
 	)
 }
 

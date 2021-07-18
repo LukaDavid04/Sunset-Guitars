@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import ModelBlock from './ModelBlock';
 import guitar1 from '../assets/parlor.jpg';
 import guitar2 from '../assets/dread.jpg';
+import AudioPlayer from './AudioPlayer';
+import AudioPlayer2 from './AudioPlayer2';
 import "../App.css";
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
@@ -15,6 +17,7 @@ class Models extends Component {
 				Creator="Luka David"
 				CreatorDescription="Luka has been crafting guitars for several years. He has worked with a plethora of clients and has made both custom and classical guitars. Located in Ottawa, he has worked with clients from Quebec, Toronto and even London."
 			/>
+			<AudioPlayer/>
 			<ModelBlock 
 				name="Maple Dreadnought"
 				icon={guitar2}
@@ -22,6 +25,7 @@ class Models extends Component {
 				Creator="Luka David"
 				CreatorDescription="Luka has been crafting guitars for several years. He has worked with a plethora of clients and has made both custom and classical guitars. Located in Ottawa, he has worked with clients from Quebec, Toronto and even London."
 			/>
+			<AudioPlayer2/>
 		</div>;
   }
 }

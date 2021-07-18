@@ -19,9 +19,10 @@ class About extends Component {
 				name="Samuel L. Jackson"
 				icon={guitar2}
 				description="Sam has been crafting guitars since he was a teenager. He worked as a luthier assistant while pursuing his education and began full-time after. Sam has made guitars for clients all over North America. He specializes in classical guitars and has made over 10 different models. Samuel's clientbase is mainly located in the GTA however he has recently moved to the Ottawa area."
-			/><br/>
-			</div>;
-  }
+			/>
+			<br/>	
+		</div>;
+	}
 }
 
 export default About;

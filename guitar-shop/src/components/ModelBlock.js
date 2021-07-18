@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import "../App.css";
-import AudioPlayer from './AudioPlayer';
 
 class ModelBlock extends Component{
 	render() {
@@ -22,9 +21,7 @@ class ModelBlock extends Component{
 						width="110%" alt="Guitar"/>
                     </div>
                 </div>
-                <AudioPlayer/>
             </div>
-            
 		</div>;
 	}
 }

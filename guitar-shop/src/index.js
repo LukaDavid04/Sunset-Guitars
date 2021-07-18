@@ -8,6 +8,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import Models from './components/Models'
 import About from './components/About'
+import FAQ from './components/FAQ'
 import Contact from './components/Contact'
 
 ReactDOM.render(
@@ -21,7 +22,8 @@ ReactDOM.render(
         <Route exact path="/home" component={Home} />
         <Route path="/models" component={Models} />
         <Route path="/luthiers" component={About} />
-		    <Route path="/FAQ" component={Contact} />
+        <Route path="/contact" component={Contact} />
+		    <Route path="/FAQ" component={FAQ} />
       </Switch>
 	  <Footer/>
     </Router>  
