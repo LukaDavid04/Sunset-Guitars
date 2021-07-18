@@ -113,3 +113,26 @@
 .AboutBody{
 	background-color: black;
 }
+
+/* FAQ */
+
+.FAQstyle {
+	background-color: black;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.Question {
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	margin-left: 2%;
+	margin-bottom: 1%;
+}
+
+.Answer {
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	margin-left: 5%;
+	margin-right: 4%;
+	text-indent: 6%;
+}
