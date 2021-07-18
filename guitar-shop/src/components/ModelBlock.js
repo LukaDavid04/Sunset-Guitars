@@ -5,7 +5,7 @@ class ModelBlock extends Component{
 	render() {
 		return <div class="ModelStyle">
             <div class="container">
-                <h3 class="ModelName">{this.props.name}</h3>
+                <h1 class="ModelName">{this.props.name}</h1>
                 <h5 class="CreatorName">By: {this.props.Creator}</h5>
                 <div class="row">
                     <div class="col">

@@ -1,3 +1,10 @@
+.Title {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	color: white;
+	padding-top: 2%;
+}
+
 /* BlockImage */
 
 .cont {
@@ -51,6 +58,8 @@
 	padding-right: 9.5% !important;
 }
 
+/* Model Page */
+
 .ModelName {
 	text-align: center;
 	padding-top: 2%;
@@ -77,4 +86,30 @@
 
 .ModelImage {
 	padding-bottom: 10%;
+}
+
+/* About Page */
+
+.AboutImage {
+	position: relative;
+	left: 2%;
+}
+
+.AboutName {
+	padding-top: 2%;
+	color: white;
+	position: relative;
+	left: 2%;
+}
+
+.AboutDesc {
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	margin-right: 1%;
+	padding-bottom: 2%;
+	text-indent: 6%;
+}
+
+.AboutBody{
+	background-color: black;
 }
