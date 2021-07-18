@@ -26,7 +26,7 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-size: 180%;
-	font-family: 'Crimson Text', serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 /* Header */
@@ -35,18 +35,46 @@
 	font-size: x-large;
 	font-family: 'Montserrat', sans-serif !important;
 	position: relative;
-	left: 7%;
+	left: 6%;
 }
 
 .main-link {
 	font-size: xx-large;
-	position: relative;
-	right: 27.5%;
 	font-family: 'Montserrat', sans-serif;
 	color: white;
+	position: absolute;
+	left: 6.5%;
 }
 
 .navbar-nav .nav-link{
-	padding-left: 9% !important;
-	padding-right: 9% !important;
+	padding-left: 9.5% !important;
+	padding-right: 9.5% !important;
+}
+
+.ModelName {
+	text-align: center;
+	padding-top: 2%;
+	color: white;
+}
+
+.CreatorName {
+	text-align: center;
+	padding-bottom: 2%;
+	color: white;
+}
+
+.ModelStyle {
+	font-family: 'Montserrat', sans-serif;
+	background-color: black;
+}
+
+.ModelDesc {
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	margin-right: 1%;
+	padding-bottom: 2%;
+}
+
+.ModelImage {
+	padding-bottom: 10%;
 }
