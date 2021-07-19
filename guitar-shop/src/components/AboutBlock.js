@@ -13,11 +13,6 @@ class AboutBlock extends Component{
                             <h5>{this.props.description}</h5><br/>
                             <h5>{this.props.description2}</h5><br/>
                         </div>
-                        <div class="Contact">
-                            <button type="button" class="btn btn-outline-danger btn-lg">
-                                Contact
-                            </button>
-                        </div>
                     </div>
                     <div class="col-md-5">
                         <img class="AboutImage" src={this.props.icon} 

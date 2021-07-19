@@ -14,6 +14,11 @@ class ModelBlock extends Component{
                             <h5>{this.props.description}</h5><br/>
                             <h5>About the Creator: </h5>
                             <h5>{this.props.CreatorDescription}</h5>
+                            <a href="Contact"><div class="button-contact">
+                                <button type="button" class="btn btn-outline-danger btn-lg">
+                                    Check Availability
+                                </button>
+                            </div></a>
                         </div>
                     </div>
                     <div class="col">

@@ -29,6 +29,7 @@ const Header = () => {
 					<LinkContainer to="/FAQ"><Nav.Link>FAQ</Nav.Link></LinkContainer>
 				</Nav>
 			</div>
+			<div class="googleButton"><div id="google_translate_element"></div></div>
 		</Navbar>
     )
 }

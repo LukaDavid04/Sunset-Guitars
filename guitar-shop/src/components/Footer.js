@@ -10,6 +10,7 @@ const Footer = () => {
 				<LinkContainer to="/home"><Nav.Link>Home</Nav.Link></LinkContainer>
 				<LinkContainer to="/models"><Nav.Link>Models</Nav.Link></LinkContainer>
 				<LinkContainer to="/luthiers"><Nav.Link>Luthiers</Nav.Link></LinkContainer>
+				<LinkContainer to="/contact"><Nav.Link>Contact</Nav.Link></LinkContainer>
 				<LinkContainer to="/FAQ"><Nav.Link>FAQ</Nav.Link></LinkContainer>
 			</Nav>
 		</Navbar>

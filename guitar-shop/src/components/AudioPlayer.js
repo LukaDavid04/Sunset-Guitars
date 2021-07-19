@@ -44,7 +44,7 @@ const onChange = (e) => {
 		<div class="ModelStyle">
 			<div class="container">
 				<div className='app-container'>
-					<h2 class="AboutName">Sample</h2>
+					<h4 class="sample">Sample</h4>
 					<Slider percentage={percentage} onChange={onChange} />
 					<audio
 						ref={audioRef}
